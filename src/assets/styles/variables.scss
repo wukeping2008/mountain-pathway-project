@@ -1,0 +1,41 @@
+// "光明之巅"主题配色方案 - 明亮、专业、有活力
+// 主色调
+$primary-color: #4A90E2;      // 天蓝色 (智慧与希望)
+$secondary-color: #F4F7FA;    // 柔和浅灰 (背景色)
+$text-color: #333333;          // 深灰色 (主要文字)
+$text-light-color: #7F8C9A;    // 浅灰色文字
+
+// 辅助色/状态色
+$success-color: #50E3C2;      // 活力绿 (成功)
+$warning-color: #F5A623;      // 温暖橙 (匹配)
+$danger-color: #9013FE;       // 鼓舞紫 (冲刺/挑战)
+$info-color: #4A90E2;         // 信息蓝
+
+// 层级颜色 - 新的渐变方案
+$dream-color: #9013FE;       // 鼓舞紫 - 冲刺
+$match-color: #F5A623;       // 温暖橙 - 匹配  
+$safety-color: #50E3C2;      // 活力绿 - 安全
+
+// UI元素颜色
+$border-color: #E0E6ED;       // 边框颜色
+$card-bg-color: #FFFFFF;      // 卡片背景色
+$shadow-color: rgba(0, 0, 0, 0.08); // 阴影颜色
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// 圆角
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 15px;
+$border-radius-full: 50%;
+
+// 阴影
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+$shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);

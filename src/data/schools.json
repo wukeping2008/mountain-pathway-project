@@ -1,0 +1,245 @@
+{
+  "schools": [
+    {
+      "id": "harvard",
+      "name": "哈佛大学",
+      "nameEn": "Harvard University",
+      "location": "美国 马萨诸塞州",
+      "tier": "dream",
+      "mountain": "everest",
+      "altitude": 8848,
+      "matchScore": 75,
+      "ranking": {
+        "world": 1,
+        "national": 1
+      },
+      "requirements": {
+        "gpa": 3.95,
+        "sat": 1520,
+        "toefl": 110,
+        "activities": "卓越"
+      },
+      "tags": ["常春藤", "顶尖学府", "综合实力", "诺贝尔奖摇篮"],
+      "description": "世界顶尖的私立研究型大学，培养了众多诺贝尔奖得主和国家领导人",
+      "color": "#A51C30",
+      "icon": "university"
+    },
+    {
+      "id": "cambridge",
+      "name": "剑桥大学",
+      "nameEn": "University of Cambridge",
+      "location": "英国 剑桥",
+      "tier": "dream",
+      "mountain": "everest",
+      "altitude": 8500,
+      "matchScore": 78,
+      "ranking": {
+        "world": 2,
+        "national": 1
+      },
+      "requirements": {
+        "gpa": 3.9,
+        "alevel": "A*A*A",
+        "ielts": 7.5,
+        "activities": "优秀"
+      },
+      "tags": ["英国顶尖", "历史悠久", "学院制", "科研强校"],
+      "description": "拥有800多年历史的世界顶级学府，31个学院构成的联邦制大学",
+      "color": "#003C71",
+      "icon": "graduation"
+    },
+    {
+      "id": "mit",
+      "name": "麻省理工学院",
+      "nameEn": "MIT",
+      "location": "美国 马萨诸塞州",
+      "tier": "dream",
+      "mountain": "everest",
+      "altitude": 8600,
+      "matchScore": 72,
+      "ranking": {
+        "world": 1,
+        "national": 1
+      },
+      "requirements": {
+        "gpa": 3.96,
+        "sat": 1540,
+        "toefl": 110,
+        "activities": "科技创新"
+      },
+      "tags": ["理工科圣地", "创新摇篮", "企业家精神", "诺贝尔奖"],
+      "description": "世界顶尖的理工科大学，在工程和技术领域享有盛誉",
+      "color": "#8B1538",
+      "icon": "lab"
+    },
+    {
+      "id": "ucl",
+      "name": "伦敦大学学院",
+      "nameEn": "UCL",
+      "location": "英国 伦敦",
+      "tier": "match",
+      "mountain": "alps",
+      "altitude": 4810,
+      "matchScore": 85,
+      "ranking": {
+        "world": 8,
+        "national": 3
+      },
+      "requirements": {
+        "gpa": 3.7,
+        "alevel": "A*AA",
+        "ielts": 7.0,
+        "activities": "良好"
+      },
+      "tags": ["G5超级精英", "综合性强", "地理位置优越", "多元化"],
+      "description": "伦敦第一所大学，英国规模最大的高等学府之一",
+      "color": "#500778",
+      "icon": "castle"
+    },
+    {
+      "id": "toronto",
+      "name": "多伦多大学",
+      "nameEn": "University of Toronto",
+      "location": "加拿大 多伦多",
+      "tier": "match",
+      "mountain": "rockies",
+      "altitude": 4401,
+      "matchScore": 88,
+      "ranking": {
+        "world": 21,
+        "national": 1
+      },
+      "requirements": {
+        "gpa": 3.6,
+        "sat": 1400,
+        "toefl": 100,
+        "activities": "良好"
+      },
+      "tags": ["加拿大第一", "研究型大学", "多元文化", "性价比高"],
+      "description": "加拿大顶尖的公立研究型大学，北美地区少数实行独立书院制的学府",
+      "color": "#002A5C",
+      "icon": "leaf"
+    },
+    {
+      "id": "melbourne",
+      "name": "墨尔本大学",
+      "nameEn": "University of Melbourne",
+      "location": "澳大利亚 墨尔本",
+      "tier": "safety",
+      "mountain": "fuji",
+      "altitude": 3776,
+      "matchScore": 92,
+      "ranking": {
+        "world": 33,
+        "national": 1
+      },
+      "requirements": {
+        "gpa": 3.5,
+        "sat": 1350,
+        "toefl": 95,
+        "activities": "一般"
+      },
+      "tags": ["澳洲第一", "宜居城市", "教育质量高", "就业前景好"],
+      "description": "澳大利亚历史第二悠久的大学，南半球首屈一指的学术重镇",
+      "color": "#003366",
+      "icon": "kangaroo"
+    },
+    {
+      "id": "hku",
+      "name": "香港大学",
+      "nameEn": "HKU",
+      "location": "中国 香港",
+      "tier": "safety",
+      "mountain": "fuji",
+      "altitude": 3500,
+      "matchScore": 90,
+      "ranking": {
+        "world": 22,
+        "regional": 3
+      },
+      "requirements": {
+        "gpa": 3.6,
+        "sat": 1380,
+        "toefl": 93,
+        "activities": "良好"
+      },
+      "tags": ["亚洲顶尖", "国际化", "就业率高", "地理位置优越"],
+      "description": "亚洲最具历史及最重要的大学之一，有亚洲'常春藤'之称",
+      "color": "#006747",
+      "icon": "globe"
+    }
+  ],
+  "tiers": {
+    "dream": {
+      "name": "冲刺院校",
+      "description": "顶尖学府，录取难度极高",
+      "color": "#FFD700",
+      "icon": "star",
+      "altitude": "8000-8848m"
+    },
+    "match": {
+      "name": "匹配院校",
+      "description": "实力相当，录取机会较大",
+      "color": "#87CEEB",
+      "icon": "target",
+      "altitude": "4000-5000m"
+    },
+    "safety": {
+      "name": "保底院校",
+      "description": "录取把握大，确保有学上",
+      "color": "#90EE90",
+      "icon": "check",
+      "altitude": "3000-4000m"
+    }
+  },
+  "mountains": {
+    "everest": {
+      "name": "珠穆朗玛峰",
+      "nameEn": "Mount Everest",
+      "altitude": 8848,
+      "location": "喜马拉雅山脉",
+      "difficulty": "极限挑战",
+      "theme": {
+        "primary": "#4A5568",
+        "secondary": "#E2E8F0",
+        "accent": "#FFD700"
+      }
+    },
+    "alps": {
+      "name": "阿尔卑斯山",
+      "nameEn": "Alps",
+      "altitude": 4810,
+      "location": "欧洲",
+      "difficulty": "高难度",
+      "theme": {
+        "primary": "#2D3748",
+        "secondary": "#CBD5E0",
+        "accent": "#87CEEB"
+      }
+    },
+    "rockies": {
+      "name": "落基山脉",
+      "nameEn": "Rocky Mountains",
+      "altitude": 4401,
+      "location": "北美洲",
+      "difficulty": "中高难度",
+      "theme": {
+        "primary": "#1A202C",
+        "secondary": "#A0AEC0",
+        "accent": "#90EE90"
+      }
+    },
+    "fuji": {
+      "name": "富士山",
+      "nameEn": "Mount Fuji",
+      "altitude": 3776,
+      "location": "日本",
+      "difficulty": "中等难度",
+      "theme": {
+        "primary": "#2C5282",
+        "secondary": "#BEE3F8",
+        "accent": "#FFB6C1"
+      }
+    }
+  }
+}
